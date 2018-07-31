@@ -12,7 +12,7 @@
 
 <p>Im going to pick a number from 1 to 100</p>
 <p><%@rand=rand(1..100)%></p>
-<p>The random number I pick is <% if @rand%2 = 0 %></p>
+<p>The random number I pick is <% if @rand%2 == 0 %></p>
   <p>  even</p>
     <%else %>
    <p> odd</p>
